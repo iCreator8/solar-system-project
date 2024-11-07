@@ -209,3 +209,28 @@ const data = {
     { name: '101955 Bennu', discoveryYear: 1999, orbitalPeriod: 436.604 }
   ],
 };
+
+// export 
+// function getPlanetsWithMassValue(data, number) {
+//   // Your code goes here...
+//   var massValueGreaterOrEqualToSeven = data.planets
+// .filter(function(findMassValue) {
+//   return findMassValue.mass.massValue >= 7;
+// })
+// .map(function(planetName) {
+//   return number + planetName.name;
+// });
+// return massValueGreaterOrEqualToSeven;
+// }
+
+// getPlanetsWithMassValue();
+
+//   var massValueGreaterOrEqualToSeven = data.planets
+// .filter(function(findMassValue) {
+//   return findMassValue.mass.massValue >= 7;
+// })
+// .map(function(planetName) {
+//   return planetName.name;
+// });
+
+// console.log(massValueGreaterOrEqualToSeven);
