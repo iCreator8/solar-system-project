@@ -4,9 +4,25 @@ import { data } from "../data/data";
 // Return a Planet name by a given moon name
 // Return example: 'Planet Name'
 
+
 export function findPlanetNameByMoon(data, moonName) {
   // Your code goes here...
+//  moonName = 'Titan';
+
+ var planetWithMoonName = data.planets
+  .filter(function(planet) {
+    return planet.moons && planet.moons.includes(moonName);
+  })
+  .map(function(planet) {
+    return planet.name;
+  })
+  .toString();
+
+  return planetWithMoonName;
 }
+
+
+
 
 
 
