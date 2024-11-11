@@ -213,6 +213,29 @@ const data = {
 
 
   // Your code goes here...
+
+// var planetWithNoMoon = data.planets
+// .filter(function(planet) {
+//   return !planet.moons;
+// })
+// .map(function(planet) {
+//   return planet.name;
+// });
+
+// console.log(planetWithNoMoon);
+
+
+
+
+
+
+
+
+
+
+
+
+
 //   var totalOrbitalPeriods = data.asteroids
 // .map(function(asteroid) {
 //     return asteroid.orbitalPeriod;
