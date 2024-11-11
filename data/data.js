@@ -209,17 +209,22 @@ const data = {
     { name: '101955 Bennu', discoveryYear: 1999, orbitalPeriod: 436.604 }
   ],
 };
-// asteroidName = '15760 Albion';
+
+
 
 // export 
-// function getAsteroidDataByName(data, asteroidName) {
-//   // Your code goes here...
-
-//    var asteroidNameFound = data.asteroids
-//   .find(function(asteroid) {
-// return asteroid.name === asteroidName;
+// function lowMoonsPlanets(data) {
+  // Your code goes here...
+//   var moonsToFind = data.planets
+//   .filter(function(planet){
+//  return !planet.moons || planet.moons.length < 10;
+//   })
+  
+//   .map(function(planet) {
+//     return planet.name;
 //   });
-//   return asteroidNameFound;
-// }
+//   // return moonsToFind;
+// // }
 
-// console.log(getAsteroidDataByName(data, '15760 Albion'));
+// // console.log(lowMoonsPlanets());
+// console.log(moonsToFind);

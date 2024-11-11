@@ -7,6 +7,15 @@ import { data } from "../data/data";
 
 export function lowMoonsPlanets(data) {
   // Your code goes here...
+ var moonsToFind = data.planets
+  .filter(function(planet){
+ return !planet.moons || planet.moons.length < 10;
+  })
+  
+  .map(function(planet) {
+    return planet.name;
+  });
+  return moonsToFind;
 }
 
 // === TEST YOURSELF ===
