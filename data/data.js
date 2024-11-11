@@ -215,19 +215,15 @@ const data = {
 // export 
 // function lowMoonsPlanets(data) {
   // Your code goes here...
-//   var moonsCounter = data.planets
-//   .filter(function(planet){
-//  return planet.moons;
-//   })
-//   .map(function(planet) {
-//     return planet.moons;
+//   var avarageTempCollector = data.planets
+// .map(function(planet) {
+//     return planet.avgTemp;
 //   })
 //   .reduce(function(accumulator, currentValue) {
-// return accumulator + currentValue.length;
+// return accumulator + currentValue / 8;
 //   }, 0);
   
-// //   // return moonsToFind;
-// // // }
+// // //   // return moonsToFind;
+// // // // }
 
-// // // console.log(lowMoonsPlanets());
-// console.log(moonsCounter);
+// console.log(avarageTempCollector);

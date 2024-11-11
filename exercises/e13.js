@@ -6,6 +6,15 @@ import { data } from "../data/data";
 
 export function getAveragePlanetsTemperature(data) {
   // Your code goes here...
+   var averageTempCollector = data.planets
+.map(function(planet) {
+    return planet.avgTemp;
+  })
+  .reduce(function(accumulator, currentValue) {
+return accumulator + currentValue / 8;
+  }, 0);
+
+  return averageTempCollector;
 }
 
 
