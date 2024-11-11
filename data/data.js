@@ -212,18 +212,14 @@ const data = {
 
 
 
-// export 
-// function lowMoonsPlanets(data) {
   // Your code goes here...
-//   var avarageTempCollector = data.planets
-// .map(function(planet) {
-//     return planet.avgTemp;
+//   var totalOrbitalPeriods = data.asteroids
+// .map(function(asteroid) {
+//     return asteroid.orbitalPeriod;
 //   })
 //   .reduce(function(accumulator, currentValue) {
-// return accumulator + currentValue / 8;
+// return accumulator + currentValue;
 //   }, 0);
-  
-// // //   // return moonsToFind;
-// // // // }
 
-// console.log(avarageTempCollector);
+
+// console.log(totalOrbitalPeriods);
