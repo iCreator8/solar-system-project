@@ -209,16 +209,17 @@ const data = {
     { name: '101955 Bennu', discoveryYear: 1999, orbitalPeriod: 436.604 }
   ],
 };
+// asteroidName = '15760 Albion';
 
 // export 
-// function getEarthData(data) {
-  // Your code goes here...
+// function getAsteroidDataByName(data, asteroidName) {
+//   // Your code goes here...
 
-//   var planetName = data.planets
-//   .find(function(planet) {
-// return planet.name === 'Earth';
+//    var asteroidNameFound = data.asteroids
+//   .find(function(asteroid) {
+// return asteroid.name === asteroidName;
 //   });
-// //  return planetName;
-// // }
+//   return asteroidNameFound;
+// }
 
-// console.log(planetName);
+// console.log(getAsteroidDataByName(data, '15760 Albion'));
